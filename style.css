@@ -1,32 +1,84 @@
-body {
-	background:#ffffff;
-	color: #001f3f;
-	text-align:center;
-	font-family:Helvetica;
-	font-size:24px;
+body{
+margin: 0;
+padding: 0;
+font-family: Titillium Web;
+color: darkgery;
+background: #f3f3f3;
 }
 
-h1 {
-	
-	
-	border-color: #CD5C5C;
-	padding: 1%;
-	width: 40%;
-	height:10%;
-	margin:auto;
-}
-h2 {
-	
-	
-	border-color: #CD5C5C;
-	padding: 1%;
-	width: 30%;
-	height:8%;
-	margin:auto;
+p{
+ front-size: 18px;
+  text-align: center;
 }
 
-p {
-	font-size:22px;
+h2{
+color: white;
+}
+
+.container{
+max-width: 960px;
+width: 96%;
+margin: auto;
+}
+/*---------HEADER----------*/
+
+header{
+background: #fff;
+margin-bottom: 20px;
+overflow: hidden;	
+}
+
+.logo{
+float: left;
+margin-top: 10px;
+}
+
+nav{
+float: right;
+line-height: 70px;
+}
+
+nav li{
+display: inline-block;
+padding: 5px 20px;
+margin-left: 10px;
+background:#f3f3f3;
+line-height: normal;
+ }
+/* -------CONTENT------- */
+.content h2{
+background: #FF4719;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.content .art1{
+float: left;
+width: 600px;
+}
+
+.content .u1{
+float: right;
+width: 250px;
+background: #338989;
+padding: 20px;
+border-radius: 5px;
+list-style: none;
+}
+
+.content .art2{
+float: right;
+width: 600px;
+}
+
+.content .u2{
+float: left;
+width: 250px;
+background: #338989;
+padding: 20px;
+border-radius: 5px;
+list-style: none;
 }
 
 footer {
@@ -34,25 +86,4 @@ footer {
 	bottom:0;
 	font-size: 14px;
 	padding: 1%;
-}
-
-.topnav{
-	position:fixed;
-	top:0;
-	background-color: #DDDDDD;
-}
-
-.topnav a {
-	float:left;
-	display:block;
-	color:#001f3f;
-	text-align: center;
-	padding:14px 16px;
-	text-decoration: none;
-	font-size:20px;
-}
-
-.topnav a:hover {
-	background-color: #001f3f;
-	color: #DDDDDD;
 }
