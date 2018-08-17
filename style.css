@@ -27,6 +27,17 @@ h2{
 color: white;
 }
 
+h3 {
+	
+	border-width: 5px;
+	border-color: #CD5C5C;
+	padding: 1%;
+	width: 30%;
+	height:7%;
+	margin:auto;
+	text-align:center;
+}
+
 .container{
 max-width: 960px;
 width: 96%;
