@@ -65,7 +65,7 @@ background-color: #ffffff;
 
 nav li{
 color:#001f3f;
-display: block;
+display: Inline-block;
 padding: 5px 20px;
 margin-left: 10px;
 background:#DDDDDD;
