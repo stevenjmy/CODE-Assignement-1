@@ -9,7 +9,6 @@ background: #ffffff;
 p{
 	front-size: 18px;
 	text-align: center;
-	float: left
 }
 
 h1 {
@@ -21,6 +20,7 @@ h1 {
 	height:10%;
 	margin:auto;
 	text-align:center;
+	front-size: 18px;
 }
 
 h2{
