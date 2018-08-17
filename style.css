@@ -60,9 +60,11 @@ margin-top: 10px;
 nav{
 float: right;
 line-height: 70px;
+background-color: #DDDDDD;
 }
 
 nav li{
+color:#001f3f;
 display: inline-block;
 padding: 5px 20px;
 margin-left: 10px;
